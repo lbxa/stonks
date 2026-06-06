@@ -1,0 +1,16 @@
+[project]
+name = "data"
+version = "0.1.0"
+description = "Provider-neutral market and fundamentals data interfaces."
+requires-python = ">=3.12"
+dependencies = [
+    "core==0.1.0",
+    "pandas>=2.2",
+]
+
+[tool.uv.sources]
+core = { workspace = true }
+
+[build-system]
+requires = ["uv_build>=0.8.10,<0.9.0"]
+build-backend = "uv_build"

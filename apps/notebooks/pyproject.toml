@@ -1,0 +1,24 @@
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Jupyter studies and visualizations for equity valuation."
+requires-python = ">=3.12"
+dependencies = [
+    "benchmarks==0.1.0",
+    "core==0.1.0",
+    "data==0.1.0",
+    "jupyterlab>=4.0",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "valuation==0.1.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+benchmarks = { workspace = true }
+core = { workspace = true }
+data = { workspace = true }
+valuation = { workspace = true }
