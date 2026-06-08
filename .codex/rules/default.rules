@@ -1,0 +1,111 @@
+# Converted from .cursor/rules/*.mdc
+# This file encodes command-execution policy only.
+
+# Enforce uv as the package manager / runner.
+prefix_rule(
+    pattern = ["uv", "run", "pytest"],
+    decision = "allow",
+    justification = "Run the repository test suite through uv.",
+    match = [
+        "uv run pytest",
+        "uv run pytest libs/valuation/tests",
+        "uv run pytest libs/data/tests/test_normalization.py",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "run", "ruff", "check"],
+    decision = "allow",
+    justification = "Run the repository linter through uv.",
+    match = [
+        "uv run ruff check .",
+        "uv run ruff check libs apps",
+        "uv run ruff check libs/valuation",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "run", "ruff", "format"],
+    decision = "allow",
+    justification = "Run the repository formatter through uv.",
+    match = [
+        "uv run ruff format .",
+        "uv run ruff format libs apps",
+        "uv run ruff format libs/valuation",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "run", "--package", "notebooks", "python"],
+    decision = "allow",
+    justification = "Run notebook studies through the workspace package environment.",
+    match = [
+        "uv run --package notebooks python apps/notebooks/studies/company_valuation_starter.py",
+    ],
+    not_match = [
+        "uv run python apps/notebooks/studies/company_valuation_starter.py",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "lock"],
+    decision = "prompt",
+    justification = "Updating the shared lockfile can change dependency resolution.",
+    match = [
+        "uv lock",
+        "uv lock --upgrade",
+        "uv lock --check",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "sync"],
+    decision = "prompt",
+    justification = "Syncing can install packages or modify the local environment.",
+    match = [
+        "uv sync",
+        "uv sync --all-packages",
+        "uv sync --all-packages --frozen",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", ["add", "remove"]],
+    decision = "prompt",
+    justification = "Dependency changes should be reviewed before running outside the sandbox.",
+    match = [
+        "uv add pytest",
+        "uv add --dev ruff",
+        "uv remove pandas",
+    ],
+)
+
+prefix_rule(
+    pattern = ["uv", "run", "--package", "notebooks", "jupyter", "lab"],
+    decision = "prompt",
+    justification = "Starting Jupyter opens a long-running local service.",
+    match = [
+        "uv run --package notebooks jupyter lab",
+        "uv run --package notebooks jupyter lab --no-browser",
+    ],
+)
+
+prefix_rule(
+    pattern = ["pip", "install"],
+    decision = "forbidden",
+    justification = "Use `uv add` for dependency changes or `uv sync --all-packages` to install the workspace.",
+    match = [
+        "pip install pytest",
+        "pip install -r requirements.txt",
+    ],
+)
+
+prefix_rule(
+    pattern = ["python", "-m", "pip", "install"],
+    decision = "forbidden",
+    justification = "Use `uv add` for dependency changes or `uv sync --all-packages` to install the workspace.",
+    match = [
+        "python -m pip install pytest",
+        "python -m pip install -r requirements.txt",
+    ],
+)

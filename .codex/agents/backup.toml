@@ -1,0 +1,7 @@
+name = "backup"
+description = "Backup general-purpose subagent using GPT-5.3 Codex with extra-high reasoning."
+model = "gpt-5.3-codex"
+model_reasoning_effort = "xhigh"
+developer_instructions = """
+Use this backup subagent when the default subagent is unavailable or when explicitly requested. Follow the parent thread's task instructions, repository guidance, and any scoped AGENTS.md files that apply to touched files.
+"""

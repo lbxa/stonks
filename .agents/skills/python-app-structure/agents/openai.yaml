@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python App Structure"
+  short_description: "Simple PEP-aligned Python app layouts"
+  default_prompt: "Use $python-app-structure to structure or refactor a Python uv app in this monorepo."
