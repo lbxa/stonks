@@ -30,6 +30,9 @@ target-version = "py312"
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
 
+[tool.ruff.lint.per-file-ignores]
+"apps/notebooks/studies/spacex_ipo/*.ipynb" = ["E501", "F401", "I001"]
+
 [tool.pytest.ini_options]
 testpaths = ["libs", "apps"]
 python_files = ["test_*.py"]

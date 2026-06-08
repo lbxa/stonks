@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Pipeline Visual Smoke"
+  short_description: "Run reproducible image transform smoke batches."
+  default_prompt: "Use $image-pipeline-visual-smoke to run a VALUE_ALPHA image pipeline visual smoke batch, capture outputs, and summarize failures for inspection."

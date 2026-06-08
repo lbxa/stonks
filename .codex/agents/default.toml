@@ -1,0 +1,7 @@
+name = "default"
+description = "Default general-purpose subagent using GPT-5.5 with extra-high reasoning."
+model = "gpt-5.5"
+model_reasoning_effort = "xhigh"
+developer_instructions = """
+Use this default subagent for general-purpose delegated work. Follow the parent thread's task instructions, repository guidance, and any scoped AGENTS.md files that apply to touched files.
+"""

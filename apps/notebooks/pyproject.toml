@@ -12,6 +12,7 @@ dependencies = [
     "numpy>=2.0",
     "pandas>=2.2",
     "valuation==0.1.0",
+    "yfinance>=0.2.66",
 ]
 
 [tool.uv]
