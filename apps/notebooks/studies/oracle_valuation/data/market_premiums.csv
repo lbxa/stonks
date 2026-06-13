@@ -1,0 +1,4 @@
+case,ai_scarcity_premium,strategic_asset_premium,mega_cap_liquidity_premium,governance_discount,execution_haircut,notes
+bear,0.00,0.02,0.02,-0.12,-0.25,Backlog skepticism plus financing and execution pressure
+base,0.08,0.04,0.03,-0.08,-0.10,Some AI scarcity credit offset by funding dilution and capex execution risk
+bull,0.18,0.06,0.05,-0.05,-0.05,OCI scarcity and database control earn premium as returns become visible

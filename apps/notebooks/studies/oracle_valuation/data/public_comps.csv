@@ -1,0 +1,15 @@
+company,ticker,peer_group,segment_relevance,narrative_premium_score,notes
+Microsoft,MSFT,Hyperscale cloud and software,Azure plus enterprise software quality benchmark,5,Core quality and cloud comp
+Alphabet,GOOGL,Hyperscale cloud and AI,Google Cloud and AI infrastructure scale benchmark,5,Core hyperscaler comp
+Amazon,AMZN,Hyperscale cloud,AWS infrastructure scale and capex benchmark,5,Core cloud infrastructure comp
+IBM,IBM,Enterprise infrastructure and legacy software,Hybrid infrastructure database and services reference,3,Legacy enterprise comp
+SAP,SAP,Enterprise applications,Large-cap enterprise applications and ERP benchmark,4,Core applications comp
+Salesforce,CRM,Enterprise applications,Cloud application growth and margin benchmark,4,Core SaaS comp
+ServiceNow,NOW,Enterprise workflow software,High-quality enterprise SaaS benchmark,5,Premium software comp
+Adobe,ADBE,Enterprise software,Software margin durability and AI disruption reference,4,Quality software comp
+Snowflake,SNOW,Data cloud,Database and data platform growth reference,4,Data platform narrative comp
+MongoDB,MDB,Database software,Database growth and valuation reference,4,Secondary database comp
+Nvidia,NVDA,AI infrastructure,AI scarcity and customer-spend cycle marker,5,Narrative reference only
+Broadcom,AVGO,AI infrastructure and software,AI networking plus infrastructure software reference,5,Secondary AI infrastructure comp
+Arista Networks,ANET,AI networking,Data-center networking cycle reference,4,AI capacity buildout comp
+Accenture,ACN,Services,Enterprise implementation and consulting services benchmark,2,Services comp

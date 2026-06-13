@@ -31,6 +31,7 @@ target-version = "py312"
 select = ["E", "F", "I", "UP", "B"]
 
 [tool.ruff.lint.per-file-ignores]
+"apps/notebooks/studies/oracle_valuation/*.ipynb" = ["E501", "F401", "I001"]
 "apps/notebooks/studies/spacex_ipo/*.ipynb" = ["E501", "F401", "I001"]
 "apps/notebooks/studies/tesla_valuation/*.ipynb" = ["E501", "F401", "I001"]
 

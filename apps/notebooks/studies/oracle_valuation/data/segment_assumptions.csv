@@ -1,0 +1,62 @@
+segment,case,metric,value,unit,source_id,notes
+OCI,bear,FY2030 revenue,95.0,USD billions,ANALYST-SEED,Backlog conversion lags capacity delivery and customer concentration weighs on utilization
+OCI,base,FY2030 revenue,166.0,USD billions,BARRONS-ORCL-AI,Approximate management target path where OCI becomes roughly three quarters of FY2030 revenue
+OCI,bull,FY2030 revenue,220.0,USD billions,ANALYST-SEED,RPO converts faster and Oracle gains durable AI infrastructure share
+OCI,bear,EBITDA margin,0.25,percent,ANALYST-SEED,Near-term depreciation power and GPU costs keep infrastructure margins below target
+OCI,base,EBITDA margin,0.34,percent,ORCL-Q4-FY2026,Management has framed mature OCI economics around a 30-40 percent margin profile
+OCI,bull,EBITDA margin,0.40,percent,ANALYST-SEED,Scale and customer-funded hardware lift infrastructure toward upper target margin
+OCI,bear,EV/EBITDA multiple,10.0,multiple,ANALYST-SEED,Infrastructure treated closer to capital-heavy cloud capacity
+OCI,base,EV/EBITDA multiple,14.0,multiple,ANALYST-SEED,Discount to high-quality software but premium to asset-heavy hosting
+OCI,bull,EV/EBITDA multiple,17.0,multiple,ANALYST-SEED,AI scarcity and proven returns justify a higher infrastructure multiple
+OCI,bear,discount factor,0.70,multiple,ANALYST-SEED,Present-value haircut for slower conversion and higher risk
+OCI,base,discount factor,0.68,multiple,ANALYST-SEED,Present-value factor for FY2030 target economics
+OCI,bull,discount factor,0.64,multiple,ANALYST-SEED,Higher growth case uses a higher required return and execution haircut
+Cloud Apps,bear,FY2030 revenue,35.0,USD billions,ANALYST-SEED,Fusion and NetSuite grow but SaaS competition limits acceleration
+Cloud Apps,base,FY2030 revenue,42.0,USD billions,ANALYST-SEED,Applications compound with enterprise cloud migrations
+Cloud Apps,bull,FY2030 revenue,52.0,USD billions,ANALYST-SEED,AI-enabled app upsell and OCI pull-through improve growth
+Cloud Apps,bear,EBITDA margin,0.32,percent,ANALYST-SEED,Competitive SaaS selling costs pressure margins
+Cloud Apps,base,EBITDA margin,0.38,percent,ANALYST-SEED,Scaled SaaS margin with continued product investment
+Cloud Apps,bull,EBITDA margin,0.42,percent,ANALYST-SEED,Enterprise apps retain software-like economics
+Cloud Apps,bear,EV/EBITDA multiple,13.0,multiple,ANALYST-SEED,Lower-growth enterprise SaaS multiple
+Cloud Apps,base,EV/EBITDA multiple,16.0,multiple,ANALYST-SEED,Quality software multiple with moderate growth
+Cloud Apps,bull,EV/EBITDA multiple,20.0,multiple,ANALYST-SEED,Higher growth and retention support premium software multiple
+Cloud Apps,bear,discount factor,0.70,multiple,ANALYST-SEED,Present-value factor to FY2030
+Cloud Apps,base,discount factor,0.68,multiple,ANALYST-SEED,Present-value factor to FY2030
+Cloud Apps,bull,discount factor,0.64,multiple,ANALYST-SEED,Present-value factor to FY2030
+Database Support,bear,FY2030 revenue,32.0,USD billions,ANALYST-SEED,License support erodes as customers migrate to cloud
+Database Support,base,FY2030 revenue,34.0,USD billions,ANALYST-SEED,Database maintenance remains durable but low growth
+Database Support,bull,FY2030 revenue,37.0,USD billions,ANALYST-SEED,Autonomous Database and enterprise stickiness stabilize growth
+Database Support,bear,EBITDA margin,0.45,percent,ANALYST-SEED,High-margin support pool with moderate erosion
+Database Support,base,EBITDA margin,0.48,percent,ANALYST-SEED,Durable database economics
+Database Support,bull,EBITDA margin,0.50,percent,ANALYST-SEED,High retention and lower selling intensity
+Database Support,bear,EV/EBITDA multiple,9.0,multiple,ANALYST-SEED,Mature software cash-flow multiple
+Database Support,base,EV/EBITDA multiple,10.5,multiple,ANALYST-SEED,Stable annuity-like support multiple
+Database Support,bull,EV/EBITDA multiple,12.0,multiple,ANALYST-SEED,Premium for durability and cloud attachment
+Database Support,bear,discount factor,0.70,multiple,ANALYST-SEED,Present-value factor to FY2030
+Database Support,base,discount factor,0.68,multiple,ANALYST-SEED,Present-value factor to FY2030
+Database Support,bull,discount factor,0.64,multiple,ANALYST-SEED,Present-value factor to FY2030
+Services Hardware,bear,FY2030 revenue,10.0,USD billions,ANALYST-SEED,Low-growth implementation services and hardware support
+Services Hardware,base,FY2030 revenue,11.0,USD billions,ANALYST-SEED,Services and hardware remain small relative to cloud and software
+Services Hardware,bull,FY2030 revenue,12.0,USD billions,ANALYST-SEED,Attached services grow with cloud deployments
+Services Hardware,bear,EBITDA margin,0.08,percent,ANALYST-SEED,Lower-margin services and hardware mix
+Services Hardware,base,EBITDA margin,0.10,percent,ANALYST-SEED,Stable low-margin contribution
+Services Hardware,bull,EBITDA margin,0.12,percent,ANALYST-SEED,Some operating leverage from deployment scale
+Services Hardware,bear,EV/EBITDA multiple,5.0,multiple,ANALYST-SEED,Low-growth services multiple
+Services Hardware,base,EV/EBITDA multiple,6.0,multiple,ANALYST-SEED,Small stable business multiple
+Services Hardware,bull,EV/EBITDA multiple,7.0,multiple,ANALYST-SEED,Improved mix multiple
+Services Hardware,bear,discount factor,0.70,multiple,ANALYST-SEED,Present-value factor to FY2030
+Services Hardware,base,discount factor,0.68,multiple,ANALYST-SEED,Present-value factor to FY2030
+Services Hardware,bull,discount factor,0.64,multiple,ANALYST-SEED,Present-value factor to FY2030
+Market,base,current price,184.13,USD/share,MW-ORCL-PRICE,Closing price on June 12 2026
+Market,base,current equity value,552.39,USD billions,ANALYST-SEED,Current price multiplied by 3.00 billion fully diluted shares
+Market,base,FY2027 revenue guide,90.0,USD billions,ORCL-Q4-FY2026,Management reaffirmed full-year FY2027 revenue target
+Market,base,FY2027 adjusted EPS guide,8.05,USD/share,ORCL-Q4-FY2026,Management raised adjusted EPS outlook
+Market,base,remaining performance obligations,638.0,USD billions,ORCL-Q4-FY2026,RPO after fiscal Q4 FY2026
+Market,base,FY2026 capex,55.7,USD billions,IBD-ORCL-Q4-FY2026,FY2026 capital expenditures
+Market,base,FY2026 free cash flow,-23.7,USD billions,IBD-ORCL-Q4-FY2026,FY2026 free cash flow after AI infrastructure buildout
+Market,base,FY2027 gross capex guide,92.5,USD billions,IBD-ORCL-Q4-FY2026,Midpoint of management commentary for FY2027 capex before customer funding
+Market,base,FY2027 net capex cash outlay,70.0,USD billions,MW-ORCL-Q4-FY2026,Expected net cash outlay after customer prepayments and timing
+Capital,base,cash,20.0,USD billions,ANALYST-SEED,Placeholder pending FY2026 10-K extraction
+Capital,base,debt and lease liabilities,156.0,USD billions,BARRONS-ORCL-AI,Debt and lease liability reference for AI buildout burden
+Capital,base,dilution,20.0,USD billions,ORCL-Q4-FY2026,Pending at-the-market equity issuance treated as dilution bridge
+Capital,base,fully diluted shares,3.0,billions,ANALYST-SEED,Round share-count placeholder for screen-grade model
