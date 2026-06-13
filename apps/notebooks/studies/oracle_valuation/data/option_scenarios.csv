@@ -1,0 +1,7 @@
+option,case,probability,value_usd_bn,notes
+AI capacity conversion,bear,0.30,0.0,Capacity comes online slowly and merely supports modeled OCI revenue
+AI capacity conversion,base,0.50,75.0,Committed RPO converts into incremental high-return OCI capacity
+AI capacity conversion,bull,0.20,250.0,Oracle earns scarcity value from AI capacity beyond the base FY2030 path
+Capex and customer concentration stress,bear,0.25,-150.0,Large customer concentration or power/GPU bottlenecks force write-down style value leakage
+Capex and customer concentration stress,base,0.50,-40.0,Financing and near-term FCF drag remain visible but manageable
+Capex and customer concentration stress,bull,0.25,0.0,Customer prepayments and bring-your-own-hardware remove most incremental stress

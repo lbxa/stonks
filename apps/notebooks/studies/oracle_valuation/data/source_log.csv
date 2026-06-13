@@ -1,0 +1,10 @@
+source_id,source_type,date,title,url,usage
+ORCL-IR,Investor relations,2026-06-13,Oracle Investor Relations,https://investor.oracle.com/,Primary company filings and quarterly materials landing page
+ORCL-SEC,SEC company filings,2026-06-13,Oracle SEC filings,https://www.sec.gov/edgar/browse/?CIK=1341439,10-K and 10-Q extraction source
+ORCL-Q4-FY2026,Company earnings update,2026-06-10,Oracle fiscal Q4 FY2026 reported results,https://investor.oracle.com/financials/quarterly-results/default.aspx,Quarterly financial extraction and management guidance source
+MW-ORCL-Q4-FY2026,Market news,2026-06-10,Oracle Q4 FY2026 capex and guidance recap,https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309,Public cross-check for revenue RPO OCI growth capex and guidance
+IBD-ORCL-Q4-FY2026,Market news,2026-06-11,Oracle Q4 FY2026 stock reaction and capex debate,https://www.investors.com/news/technology/oracle-earnings-orcl-news-may-2026/,Public cross-check for RPO capex free cash flow and financing
+BARRONS-ORCL-AI,Market news,2026-06-13,Oracle AI infrastructure debate,https://www.barrons.com/articles/oracle-stock-price-ai-agents-software-e9b44234,Public cross-check for OCI 2030 target mix and margin pressure debate
+MW-ORCL-PRICE,Market data,2026-06-12,Oracle June 12 2026 closing price,https://www.marketwatch.com/data-news/paychex-inc-stock-outperforms-competitors-on-strong-trading-day-ae7b6851-ccf2613d6ba2,Market close anchor for current price
+YF-ORCL,Market data,2026-06-13,Yahoo Finance ORCL,https://finance.yahoo.com/quote/ORCL/,Optional live market data through yfinance
+ANALYST-SEED,Analyst estimate,2026-06-13,Seed assumptions,local_csv,V1 model scaffold values pending source-backed replacement
